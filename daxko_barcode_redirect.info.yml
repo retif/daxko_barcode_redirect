@@ -1,0 +1,5 @@
+name: 'Daxko Barcode Redirect'
+type: module
+description: 'Daxko Barcode Redirect'
+core: 8.x
+package: 'Custom'

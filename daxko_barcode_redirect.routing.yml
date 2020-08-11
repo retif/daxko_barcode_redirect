@@ -1,0 +1,7 @@
+daxko_barcode_redirect.daxko_barcode_redirect:
+  path: '/barcode-redirect'
+  defaults:
+    _controller: '\Drupal\daxko_barcode_redirect\Controller\DaxkoBarcode::redirectAfterBarcodeScanner'
+    _title: 'Daxko barcode redirect'
+  requirements:
+    _permission: 'access content'
